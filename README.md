@@ -1,4 +1,4 @@
-# 🛒 Grocery Store Management System
+# 🛒 Dairy Digitization System
 
 A comprehensive Java-based web application for managing a grocery store’s operations, built with a clean, modular structure. This project enables admins to manage inventory, customers, and billing with ease, providing a practical solution for small and medium-sized grocery businesses.
 
@@ -8,17 +8,17 @@ A comprehensive Java-based web application for managing a grocery store’s oper
 
 Here’s a glimpse of the application in action:
 
-| Home Page | Product Management |
+| Register Page | Login Page |
 |-----------|--------------------|
-| ![Home](dairy_digitization/Screenshots/1.png) | ![Product Management](dairy_digitization/Screenshots/2.png) |
+| ![Home](https://github.com/user-attachments/assets/c5e2cb3c-c8b7-4f1e-8a96-050873f7eb58) | ![Product Management](https://github.com/user-attachments/assets/67aa47f5-7347-4d48-9361-fd5350cf42b7) |
 
-| Billing Page | Admin Dashboard |
+| User Database | Admin Dashboard |
 |--------------|-----------------|
-| ![Billing](GroceryStore/Screenshots/3.png) | ![Dashboard](GroceryStore/Screenshots/4.png) |
+| ![Billing](https://github.com/user-attachments/assets/1cc9b704-5b5e-44dc-9184-2c2202e1f9fd) | ![Dashboard](https://github.com/user-attachments/assets/595c767b-6950-4e26-ad43-1fdc5ac3440e) |
 
 | Customer View | Inventory Report |
 |----------------|------------------|
-| ![Customer](GroceryStore/Screenshots/5.png) | ![Inventory](GroceryStore/Screenshots/6.png) |
+| ![Customer](https://github.com/user-attachments/assets/a8ec58f5-c810-4c7c-b264-91b84eaae929) | ![Inventory](https://github.com/user-attachments/assets/5276b663-29e4-44a4-b7eb-14c2b15fb093) |
 
 ---
 
@@ -58,7 +58,7 @@ GroceryStore/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/GroceryStore.git
+   git clone https://github.com/cschauhan0304/dairy_digitization.git
    ```
 
 2. **Import into Eclipse**
@@ -74,22 +74,3 @@ GroceryStore/
 4. **Run on Server**
    - Deploy the project on Apache Tomcat
    - Access it via `http://localhost:8080/GroceryStore/`
-
----
-
-## 🙌 Acknowledgements
-
-Thanks to all contributors, open-source libraries, and tools that made this project possible.
-
----
-
-## 📫 Contact
-
-For suggestions or collaboration, reach out at: **your.email@example.com**
-
----
-
-> Made with 💚 for smart shopping!
-```
-
-Let me know if you'd like to personalize it with your name, GitHub link, or add extra sections like FAQs, changelogs, or contributors.
