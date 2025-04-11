@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milky Way</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">Milky Way<span>.</span></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined"
+            >close</span
+          >
+          <li><a href="#">Home</a></li>
+          <li><a href="http://localhost:8080/GroceryStore/display.jsp">Realtime Info</a></li>
+          <li><a href="#">Delivery Tracking</a></li>
+          <li><a href="http://localhost:8080/GroceryStore/index.html">Market Place</a></li>
+          <li><a href="http://localhost:8080/GroceryStore/index.html">Inventory</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="content">
+        <div class="wrapper">
+          <div class="typing-demo">
+            <h2>Join us to build a reliable bridge</h2>
+          </div>
+        </div>
+        <p>
+          Milk is a cherished and versatile beverage relished by people
+          globally. Indulge in a creamy cup of liquid comfort to awaken your
+          senses
+        </p>
+      </div>
+    </section>
+
+    <section class="card-section">
+      <div class="card">
+        <img src="istockphoto-1000394800-612x612.jpg" alt="Card Image" />
+        <div class="card-content">
+          <h3>Realtime Information</h3>
+          <p>
+            Here you will able to get the realtime information of the market
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="istockphoto-1181050865-612x612.jpg" alt="Card Image" />
+        <div class="card-content">
+          <h3>Delivery Tracking</h3>
+          <p>
+            Here you will able to track all the information about the delivery
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="istockphoto-1361979529-612x612.jpg" alt="Card Image" />
+        <div class="card-content">
+          <h3>Market Places</h3>
+          <p>Here you will able to get know about available market places.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="istockphoto-586715692-612x612.jpg" alt="Card Image" />
+        <div class="card-content">
+          <h3>Inventory</h3>
+          <p>
+            Here you will able to know about the Inventory currently avilable.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <i class="fab fa-slack"></i>
+            <span class="logo_name">Milky Way</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Company</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Get started</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Services</li>
+            <li><a href="#">Realtime Information</a></li>
+            <li><a href="#">Delivery Tracking</a></li>
+            <li><a href="#">Market Places</a></li>
+            <li><a href="#">Inventory</a></li>
+          </ul>
+          <ul class="box input-box">
+            <li class="link_name">Subscribe</li>
+            <li><input type="text" placeholder="Enter your email" /></li>
+            <li><input type="button" value="Subscribe" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text"
+            >Copyright © 2021 <a href="#">Milky Way</a>All rights reserved</span
+          >
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+      hamburgerBtn.addEventListener("click", () =>
+        header.classList.toggle("show-mobile-menu")
+      );
+
+      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+  </body>
+</html>
